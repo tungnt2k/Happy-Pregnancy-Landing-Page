@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0px;
   color: #000000;
   &.body-top-padding {
@@ -33,6 +33,13 @@ body {
 .banner {
   background-color: #f7f8fa;
   text-align: center;
+  .img-fluid{
+    margin: calc(100vh - 850px) 0;
+    @media (max-width: 992px) {
+      margin: 0px;
+    }
+  
+  }
 }
 
 .content-wrapper {
