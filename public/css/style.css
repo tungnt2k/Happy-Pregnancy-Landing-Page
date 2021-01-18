@@ -10010,9 +10010,82 @@ footer a:hover {
   transition: all 1s;
 }
 
-.why-happy {
-  border: 1px solid black;
-  margin-bottom: 50px;
+.why-happy__content {
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.why-happy__content .image-left {
+  width: 60%;
+}
+
+.why-happy__content .image-left img {
+  width: 90%;
+}
+
+.why-happy__content .content-right {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-happy__content .content-right__block {
+  padding: 20px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.why-happy__content .content-right__block img {
+  width: 25%;
+}
+
+.why-happy__content .content-right__block p {
+  width: 85%;
+  padding: 10px 0 0 0;
+  margin: 0;
+  text-align: left;
+}
+
+@media (max-width: 892px) {
+  .why-happy__content {
+    flex-direction: column;
+  }
+  .why-happy__content .image-left {
+    width: 100%;
+  }
+  .why-happy__content .image-left img {
+    width: 100%;
+  }
+  .why-happy__content .content-right {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .why-happy__content .content-right__block {
+    margin-top: 40px;
+    padding: 20px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .why-happy__content .content-right__block img {
+    width: 25%;
+  }
+  .why-happy__content .content-right__block p {
+    width: 85%;
+    padding: 10px 0 0 0;
+    margin: 0;
+    text-align: center;
+  }
 }
 
 .privacy .privacy-header {
@@ -10040,6 +10113,12 @@ footer a:hover {
 .privacy .content .policy__detail {
   color: #6e6e6e;
   text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .privacy-header h2 {
+    font-size: 23px;
+  }
 }
 
 @media (max-width: 575px) {
