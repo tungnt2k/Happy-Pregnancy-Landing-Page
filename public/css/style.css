@@ -9736,10 +9736,6 @@ body.sidebar-open::before {
   text-align: center;
 }
 
-.banner .img-fluid {
-  margin: calc(100vh - 850px) 0;
-}
-
 @media (max-width: 992px) {
   .banner .img-fluid {
     margin: 0px;
@@ -9911,6 +9907,10 @@ body.sidebar-open::before {
   color: #ff0000;
 }
 
+.contact-details .text-muted {
+  padding: 5px 0;
+}
+
 footer a {
   color: #ff0000;
 }
@@ -9990,6 +9990,56 @@ footer a:hover {
 
 .owl-item:nth-child(even) .content-divider {
   background-color: red;
+}
+
+.container .custombtn {
+  background-color: #4cccde;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-size: 200px;
+  font-size: 14 px;
+  transition: all 1s;
+}
+
+.container .custombtn:hover {
+  color: white;
+  background-color: #274f7a;
+  transition: all 1s;
+}
+
+.why-happy {
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.privacy .privacy-header {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  color: #274f7a;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.privacy .privacy-header img {
+  height: 60px;
+}
+
+.privacy .content {
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.privacy .content .policy__colection {
+  color: #274f7a;
+}
+
+.privacy .content .policy__detail {
+  color: #6e6e6e;
+  text-align: justify;
 }
 
 @media (max-width: 575px) {

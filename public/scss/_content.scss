@@ -34,7 +34,7 @@ body {
   background-color: #f7f8fa;
   text-align: center;
   .img-fluid{
-    margin: calc(100vh - 850px) 0;
+    // margin: calc(100vh - 850px) 0;
     @media (max-width: 992px) {
       margin: 0px;
     }
@@ -198,6 +198,12 @@ body {
       color: #ff0000;
     } 
   }
+ 
+    .text-muted{
+      padding: 5px 0;
+    }
+  
+  
 }
 
 footer {
@@ -291,6 +297,70 @@ footer {
     }
   }
 }
+.container{
+  .custombtn{
+    background-color: #4cccde;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-size: 200px;
+    font-size: 14 px;
+    transition: all 1s;
+  }
+  .custombtn:hover{
+    color: white;
+    background-color: #274f7a;
+    transition: all 1s;
+  }
+}
+.why-happy{
+  border: 1px solid black;
+  margin-bottom: 50px;
+  &__content{
+    // border: 1px solid black;
+  }
+}
+
+
+
+
+
+
+
+
+
+.privacy{
+  .privacy-header{
+    img{
+      height: 60px;
+    }
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+ 
+  color: #274f7a;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+.content{
+  // border: 1px solid black;
+  height: fit-content;
+  margin-top: 50px;
+  .policy{
+
+    &__colection{
+      color: #274f7a;
+    }
+    &__detail{
+      color: #6e6e6e;
+      text-align: justify;
+    }
+  }
+  
+}
+}
 
 
 //CONTAINER
@@ -299,8 +369,5 @@ footer {
     padding: 0px 30px;
   }
 } 
-
-
-
 
   
